@@ -5,12 +5,12 @@ This small app is a mobile-responsive single-page application that allows instru
 **Editing student names**: You can edit students' names by modifying the array in `/app/fixtures/students.js`.
 
 **Editing colors**: This app was built at the University of Kansas and uses [the university's official color palette](http://brand.ku.edu/guidelines/color). This includes three colors that are defined by the variables:
-- @darkPrimaryColor: @kuBlue;
-- @buttonBackgroundColor: @darkPrimaryColor;
-- @buttonForegroundColor: @jayhawkYellow;
-- @buttonBorderColor: @crimson;
+- `@darkPrimaryColor: @kuBlue;`
+- `@buttonBackgroundColor: @darkPrimaryColor;`
+- `@buttonForegroundColor: @jayhawkYellow;`
+- `@buttonBorderColor: @crimson;`
 
-You should only have to edit the three colors at the top of the page in order to restyle the application for your respective university.
+You should only have to edit the three colors at the top of the `app.less` file in order to restyle the application for your respective university.
 
 ## Deploying to Heroku
 
