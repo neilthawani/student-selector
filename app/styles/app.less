@@ -1,7 +1,12 @@
 @kuBlue: #0051ba;
 @crimson: #e8000d;
 @jayhawkYellow: #ffc82d;
-@signatureGray: #85898a;
+
+@darkPrimaryColor: @kuBlue;
+
+@buttonBackgroundColor: @darkPrimaryColor;
+@buttonForegroundColor: @jayhawkYellow;
+@buttonBorderColor: @crimson;
 
 body {
     text-align: center;
@@ -9,7 +14,7 @@ body {
 }
 
 h1 {
-    color: @kuBlue;
+    color: @darkPrimaryColor;
     font-size: 72px;
     word-wrap: break-word;
     white-space: normal;
@@ -25,9 +30,9 @@ h1 {
 
 button {
     font-size: 36px;
-    background-color: @kuBlue;
-    color: @jayhawkYellow;
-    border: 2px solid @crimson;
+    background-color: @buttonBackgroundColor;
+    color: @buttonForegroundColor;
+    border: 2px solid @buttonBorderColor;
     border-radius: 5px;
     padding: 25px;
     width: max-content;
