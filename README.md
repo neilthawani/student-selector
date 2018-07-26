@@ -2,7 +2,7 @@
 
 This small app is a mobile-responsive single-page application that allows instructors to press a button and select a student to call upon in class.
 
-<img src="https://user-images.githubusercontent.com/4055501/43234147-06776f8a-9040-11e8-8333-b73a853400a0.png" height=100 />
+<img src="https://user-images.githubusercontent.com/4055501/43234147-06776f8a-9040-11e8-8333-b73a853400a0.png" height=300 />
 
 **Editing student names**: You can edit students' names by modifying the array in `/app/fixtures/students.js`.
 
