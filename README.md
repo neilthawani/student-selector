@@ -2,6 +2,8 @@
 
 This small app is a mobile-responsive single-page application that allows instructors to press a button and select a student to call upon in class.
 
+![image](https://user-images.githubusercontent.com/4055501/43234147-06776f8a-9040-11e8-8333-b73a853400a0.png)
+
 **Editing student names**: You can edit students' names by modifying the array in `/app/fixtures/students.js`.
 
 **Editing colors**: This app was built at the University of Kansas and uses [the university's official color palette](http://brand.ku.edu/guidelines/color). This includes three colors that are defined by the variables:
